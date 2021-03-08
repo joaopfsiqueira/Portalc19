@@ -1,0 +1,50 @@
+/* EXEMPLO DE RESPONSIVE PARA MONTAR DEPOIS: */
+@media (max-width:767px){
+
+    .responsivel{
+        display: none !important;
+    }
+
+    .paddingAreaMobile{
+        padding: 50px 0 !important;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+    .blog_post_time {
+        padding: 2px 9px!important
+    }
+    .blog_post_time h3 {
+        font-size: 15px
+    }
+    .home_main_wrape .attorney_img_wrap p {
+        line-height: 24px;
+    }
+    .submit_frm {
+        font-size: 10px
+    }
+    .top_contact_area .mob_no {
+        font-size: 20px
+    }
+}
+
+@media (min-width: 1200px) {
+    .right_lawyer_img img {
+        position: absolute;
+    }
+    .padd_left {
+        padding-left: 8px
+    }
+    .top_margin {
+        margin-top: 57px;
+        position: relative;
+        top: 64px;
+        right: -77.4%;
+    }
+    .history_bg_blue.home_wrap_main {
+        padding-bottom: 17px;
+    }
+    .lw_address_sec p {
+        padding-left: 40px
+    }
+}
